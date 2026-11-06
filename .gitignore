@@ -26,3 +26,7 @@ still_frame.png
 # adrgraph build output
 .adrgraph/*.lbug
 .adrgraph/*.wal
+
+# Claude Code per-machine settings
+.claude/settings.local.json
+.adrgraph/report.html
