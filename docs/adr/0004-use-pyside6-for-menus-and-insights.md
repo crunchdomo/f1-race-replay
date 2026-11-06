@@ -1,3 +1,18 @@
+---
+id: ADR-0004
+title: Use PySide6 for menus and insights
+status: accepted
+date: 2025-11-21
+rules:
+  - id: pyside-only-in-ui
+    description: Only the gui and insights packages import PySide6.
+    only:
+      from: { path: "src/gui/**" }
+      except: [{ path: "src/insights/**" }]
+      to: { kind: unit, name: "PySide6*" }
+      via: IMPORTS
+---
+
 # Use PySide6 for menus and insight windows
 
 Date: 2026-01-20

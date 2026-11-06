@@ -1,3 +1,12 @@
+---
+id: ADR-0002
+title: Render the replay with Arcade
+status: accepted
+date: 2025-11-21
+scope:
+  - { path: "src/interfaces/**" }
+---
+
 # Render the replay window with Arcade
 
 Date: 2025-11-21

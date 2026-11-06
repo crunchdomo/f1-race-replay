@@ -1,3 +1,12 @@
+---
+id: ADR-0007
+title: Simulate the safety car position
+status: accepted
+date: 2025-11-21
+scope:
+  - { path: "src/interfaces/race_replay.py" }
+---
+
 # Simulate the Safety Car position from the leader
 
 Date: 2026-02-23

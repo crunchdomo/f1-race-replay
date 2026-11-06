@@ -1,3 +1,17 @@
+---
+id: ADR-0005
+title: Stream telemetry over local TCP
+status: accepted
+date: 2025-11-21
+rules:
+  - id: sockets-only-in-stream
+    description: Only the stream service touches sockets.
+    only:
+      from: { path: "src/services/stream.py" }
+      to: { kind: unit, name: "socket" }
+      via: IMPORTS
+---
+
 # Stream telemetry to other processes over a local TCP socket
 
 Date: 2026-02-06

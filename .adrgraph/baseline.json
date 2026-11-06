@@ -10,6 +10,21 @@
       "decision": "ADR-0001",
       "rule": "fastf1-only-in-f1-data",
       "node_id": "src/ui_components.py"
+    },
+    {
+      "decision": "ADR-0004",
+      "rule": "pyside-only-in-ui",
+      "node_id": "main.py"
+    },
+    {
+      "decision": "ADR-0004",
+      "rule": "pyside-only-in-ui",
+      "node_id": "src/services/stream.py"
+    },
+    {
+      "decision": "ADR-0006",
+      "rule": "insights-subclass-pit-wall-window",
+      "node_id": "src/insights/telemetry_stream_viewer.py::src.insights.telemetry_stream_viewer.TelemetryStreamViewer"
     }
   ]
 }

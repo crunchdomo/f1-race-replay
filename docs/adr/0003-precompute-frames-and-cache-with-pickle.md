@@ -1,3 +1,12 @@
+---
+id: ADR-0003
+title: Precompute frames and cache with pickle
+status: accepted
+date: 2025-11-21
+scope:
+  - { path: "src/f1_data.py" }
+---
+
 # Precompute fixed-rate frames and cache them with pickle
 
 Date: 2025-12-02

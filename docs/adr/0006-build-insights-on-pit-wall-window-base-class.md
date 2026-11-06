@@ -1,3 +1,18 @@
+---
+id: ADR-0006
+title: Build insights on the PitWallWindow base class
+status: accepted
+date: 2025-11-21
+rules:
+  - id: insights-subclass-pit-wall-window
+    description: Every insight window class subclasses PitWallWindow.
+    must:
+      every: { path: "src/insights/**", kind: class }
+      except: [{ name: "_*" }, { name: "StintBar" }, { name: "LapAxisWidget" }]
+      has: { name: "*PitWallWindow" }
+      via: INHERITS
+---
+
 # Build insight windows on the PitWallWindow base class
 
 Date: 2026-02-17
