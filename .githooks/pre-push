@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Refuse the push if the code violates an ADR rule or the ADRs contradict each other.
+set -e
+adrgraph check
+adrgraph audit

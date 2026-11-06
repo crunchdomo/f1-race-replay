@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "violations": [
+    {
+      "decision": "ADR-0001",
+      "rule": "fastf1-only-in-f1-data",
+      "node_id": "src/interfaces/race_replay.py"
+    },
+    {
+      "decision": "ADR-0001",
+      "rule": "fastf1-only-in-f1-data",
+      "node_id": "src/ui_components.py"
+    }
+  ]
+}

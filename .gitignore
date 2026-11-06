@@ -22,3 +22,7 @@ still_frame.png
 .DS_Store
 .idea/
 .vscode/
+
+# adrgraph build output
+.adrgraph/*.lbug
+.adrgraph/*.wal
